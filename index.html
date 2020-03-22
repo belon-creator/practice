@@ -7,75 +7,77 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="/">
+    <header class="hdr">
+      <nav class="hdr__nav">
+        <a class="hdr__logo" href="/">
           <img src="./img/logo.png" alt="site logo" />
         </a>
 
-        <ul>
-          <li>
-            <a href="#">Features</a>
+        <ul class="menu">
+          <li class="menu__item">
+            <a class="menu__link" href="#">Features</a>
           </li>
-          <li>
-            <a href="#">Pricing</a>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Pricing</a>
           </li>
-          <li>
-            <a href="#">Community</a>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Community</a>
           </li>
-          <li>
-            <a href="#">Support</a>
+          <li class="menu__item">
+            <a class="menu__link" href="#">Support</a>
           </li>
         </ul>
 
-        <ul>
+        <ul class="auth-nav">
           <li>
-            <button type="button">Log in</button>
+            <button type="button" class="auth-nav__btn">Log in</button>
           </li>
           <li>
-            <button type="button">Register</button>
+            <button type="button" class="auth-nav__btn">Register</button>
           </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>The largest community of photo enthusiasts</h1>
+      <section class="banner">
+        <h1 class="banner__title">
+          The largest community of photo enthusiasts
+        </h1>
         <button type="button">Join today</button>
       </section>
 
-      <section>
-        <h2>Snap photos and share like never before</h2>
-        <ul>
-          <li>
+      <section class="features">
+        <h2 class="features__title">Snap photos and share like never before</h2>
+        <ul class="features-list">
+          <li class="features-list__item">
             <h3>lorem</h3>
-            <p>
+            <p class="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
               accusamus.
             </p>
             <a href="#">Learn more</a>
           </li>
-          <li>
+          <li class="features-list__item">
             <h3>Lorem, ipsum.</h3>
-            <p>
+            <p class="description">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Accusantium unde hic ea aut exercitationem porro.
             </p>
             <a href="#">Learn more</a>
           </li>
-          <li>
+          <li class="features-list__item">
             <h3>Lorem ipsum dolor sit amet.</h3>
-            <p>
+            <p class="description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Cupiditate maxime, eius nemo accusamus aliquam dolor voluptatem
               corrupti!
             </p>
             <a href="#">Learn more</a>
           </li>
-          <li>
+          <li class="features-list__item">
             <h3>Lorem, ipsum dolor.</h3>
-            <p>
+            <p class="description">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem
               optio accusamus labore minus suscipit provident.
             </p>

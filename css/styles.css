@@ -1,0 +1,27 @@
+:root {
+  --white-color: #fff;
+  --accent-color: #1144cf;
+  --dark-color: #212121;
+  --text-color: #717171;
+}
+
+.hdr {
+  background-color: var(--white-color);
+}
+
+.menu__link {
+  color: var(--accent-color);
+}
+
+.menu__link:hover,
+.menu__link:focus {
+  color: var(--dark-color);
+}
+
+.banner__title {
+  color: var(--dark-color);
+}
+
+.description {
+  color: var(--text-color);
+}
