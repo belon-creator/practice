@@ -362,11 +362,11 @@ p {
 }
 
 .social-links__link-twitter {
-  background-image: url(/img/icons/twitter.png);
+  background-image: url(../img/icons/twitter.png);
 }
 .social-links__link-facebook {
-  background-image: url(/img/icons/facebook.png);
+  background-image: url(../img/icons/facebook.png);
 }
 .social-links__link-linkedin {
-  background-image: url(/img/icons/linkedin.png);
+  background-image: url(../img/icons/linkedin.png);
 }
