@@ -138,7 +138,7 @@ p {
     rgb(226, 212, 12),
     rgb(230, 215, 9)
   );
-  background-image: url(./img/desert-4954346_960_720.webp);
+  background-image: url(/img/desert-4954346_960_720.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
