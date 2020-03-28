@@ -285,6 +285,8 @@ p {
 .footer {
   background-color: var(--accent-color);
   min-height: 150px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .ftr__logo img {
@@ -340,11 +342,13 @@ p {
 .social-links {
   display: flex;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .copy {
   text-align: center;
   font-size: 14px;
+  margin-top: 0;
 }
 
 .social {
