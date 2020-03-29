@@ -134,7 +134,9 @@ p {
 
 .banner__title {
   color: var(--dark-color);
+  line-height: 1.5;
   margin-top: 0;
+  font-weight: 400;
 }
 
 .description {
@@ -269,7 +271,7 @@ p {
 
 @media screen and (min-width: 320px) {
   .container {
-    min-width: 320px;
+    width: 320px;
     padding-right: 16px;
     padding-left: 16px;
   }
@@ -311,8 +313,6 @@ p {
 
   .banner__title {
     font-size: 36px;
-    line-height: 1.5;
-    font-weight: 400;
   }
 
   /* main */
@@ -361,6 +361,11 @@ p {
     align-items: center;
     padding: 20px;
     transition: 0.3s;
+    margin-bottom: 24px;
+  }
+
+  .snap-list__item:nth-last-child(-n + 1) {
+    margin-bottom: 0;
   }
 
   .snap-list__item img {
@@ -421,5 +426,89 @@ p {
   .ftr__logo {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 540px) {
+  .container {
+    width: 540px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+
+  .hero {
+    height: 700px;
+  }
+
+  .banner__title {
+    font-size: 42px;
+  }
+
+  .features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .features-list__title {
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .features-list__item {
+    flex-basis: 480px;
+    flex-grow: 0;
+    margin-bottom: 50px;
+    padding: 5px;
+    transition: 0.3s;
+  }
+
+  .features-list__item:nth-last-child(-n + 1) {
+    margin-bottom: 0;
+  }
+
+  .snap-list__item {
+    align-items: center;
+    padding: 20px;
+    transition: 0.3s;
+    margin-bottom: 24px;
+  }
+
+  .snap-list__item:nth-last-child(-n + 1) {
+    margin-bottom: 0;
+  }
+
+  .snap-list__item img {
+    width: 450px;
+  }
+
+  .gc__item img {
+    width: 180px;
+  }
+
+  .gc__list {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gc__item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer__nav-list {
+    flex-direction: row;
+  }
+
+  .footer__nav-link {
+    padding: 10px;
   }
 }
