@@ -1,96 +1,15 @@
-html {
-  box-sizing: border-box;
-}
-
-* {
-  box-sizing: inherit;
-}
-
-:root {
-  --white-color: #fff;
-  --accent-color: #288ce9;
-  --dark-color: #212121;
-  --text-color: #717171;
-}
-
-body {
-  margin: 0;
-  background-color: var(--white-color);
-  color: var(--dark-color);
-  font-family: "Montseratt", sans-serif;
-}
-button {
-  font-family: inherit;
-  cursor: pointer;
-}
-p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.container {
-  width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 40px;
-  padding-left: 40px;
-}
-
-.list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.hdr {
-  background-color: var(--white-color);
-  min-height: 60px;
-}
-
-.hdr__logo {
+/* .hdr__logo {
   margin-right: 50px;
-}
+} */
 
-.hdr__nav {
+/* .hdr__nav {
   display: flex;
   align-items: center;
   min-height: 60px;
-}
+} */
 
 .menu {
   display: flex;
-}
-
-.menu__link {
-  display: block;
-  padding: 20px;
-  text-decoration: none;
-  color: var(--accent-color);
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 1.2;
-  overflow: hidden;
-  transition: 0.3s;
-}
-
-.menu__link::after {
-  display: block;
-  content: "";
-  width: 100%;
-  height: 2px;
-  background-color: var(--accent-color);
-  opacity: 0;
-}
-
-.menu__link:hover::after {
-  opacity: 1;
-  transition: 1s;
-}
-
-.menu__link:hover,
-.menu__link:focus {
-  color: var(--dark-color);
-  transform: scale(1.2);
 }
 
 .auth-nav {
@@ -98,7 +17,7 @@ p {
   margin-left: auto;
 }
 
-.button {
+/* .button {
   display: inline-flex;
   width: 100px;
   justify-content: center;
@@ -119,54 +38,13 @@ p {
 .button:focus {
   background-color: var(--accent-color);
   color: var(--dark-color);
-}
+} */
 
-.hero {
-  height: 100vh;
-  background-image: linear-gradient(
-    to top right,
-    rgb(35, 51, 219),
-    rgb(69, 80, 181),
-    rgb(104, 109, 143),
-    rgb(138, 137, 105),
-    rgb(173, 166, 67),
-    rgb(207, 195, 29),
-    rgb(211, 198, 26),
-    rgb(215, 202, 22),
-    rgb(219, 205, 19),
-    rgb(222, 208, 16),
-    rgb(226, 212, 12),
-    rgb(230, 215, 9)
-  );
-  background-image: url(../img/desert-4954346_960_720.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
-.hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner {
-  text-align: center;
-}
-.banner__title {
-  color: var(--dark-color);
-  margin-top: 0;
-}
-
-.description {
-  color: var(--text-color);
-}
-
-.banner__title {
+/* .banner__title {
   font-size: 56px;
   line-height: 80px;
   font-weight: 400;
-}
+} */
 
 /* main */
 
