@@ -226,6 +226,10 @@ p {
   opacity: 0;
 }
 
+.footer__nav-link {
+  padding: 10px;
+}
+
 .footer__nav-link:hover::after {
   opacity: 1;
   transition: 1s;
@@ -489,10 +493,6 @@ p {
   .footer__nav-list {
     flex-direction: row;
   }
-
-  .footer__nav-link {
-    padding: 10px;
-  }
 }
 
 @media screen and (min-width: 1140px) and (max-width: 2680px) {
@@ -516,6 +516,11 @@ p {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+  }
+
+  .menu,
+  .auth-nav {
+    margin-bottom: 0;
   }
 
   .features__title {
