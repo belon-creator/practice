@@ -260,7 +260,11 @@ p {
   margin-right: 10px;
 }
 
-.social-links__link-twitter {
+.svg {
+  width: 32px;
+}
+
+/* .social-links__link-twitter {
   background-image: url(../img/icons/twitter.png);
 }
 .social-links__link-facebook {
@@ -268,7 +272,7 @@ p {
 }
 .social-links__link-linkedin {
   background-image: url(../img/icons/linkedin.png);
-}
+} */
 
 .copy {
   text-align: center;
@@ -493,6 +497,10 @@ p {
   .footer__nav-list {
     flex-direction: row;
   }
+
+  .svg {
+    transform: translateY(-30%);
+  }
 }
 
 @media screen and (min-width: 1140px) and (max-width: 2680px) {
@@ -581,5 +589,11 @@ p {
     justify-content: space-around;
     margin-bottom: 40px;
     margin-top: 20px;
+  }
+  .svg {
+    transform: translate(80%, -50%);
+  }
+  .copy {
+    transform: translateX(2%);
   }
 }
